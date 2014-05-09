@@ -30,7 +30,7 @@ attributes:
     dotfiles:
         vimusers:
             - root
-            - roderik
+            - vincent
         kdeploy:
             hostname: dev
         vim:
@@ -43,14 +43,14 @@ attributes:
                 - nerdtree: https://github.com/scrooloose/nerdtree.git
                 - vim-css-color: https://github.com/ap/vim-css-color
     git:
-        name: Roderik van der Veer
-        email: roderik.van.der.veer@kunstmaan.be
+        name: Vincent Moore
+        email: vincent@offbaseproductions.com
     osxdefaults:
-        computername: Mir
+        computername: Vincent-OBP
     authorization:
         sudo:
             users:
-                - roderik
+                - vincent
             passwordless: true
             include_sudoers_d: true
     homebrewalt:
@@ -64,7 +64,6 @@ attributes:
             - totalfinder
             - spotify
             - bartender
-            - vmware-fusion
             - virtualbox
             - vagrant
             - hazel
