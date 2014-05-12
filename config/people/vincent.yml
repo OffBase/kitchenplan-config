@@ -63,12 +63,8 @@ attributes:
             - alfred
             - totalfinder
             - spotify
-            - bartender
             - virtualbox
             - vagrant
-            - hazel
-            - sonos
-            - trailer
     nodejs:
         apps:
             - pageres
