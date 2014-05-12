@@ -3,7 +3,7 @@ recipes:
         - applications::kms
 attributes:
     postfix:
-        domain: "kunstmaan.be"
+        domain: "offbaseproductions.com"
     homebrewalt:
         cask_apps:
             - slack
