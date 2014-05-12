@@ -55,14 +55,9 @@ attributes:
             include_sudoers_d: true
     homebrewalt:
         cask_apps:
-
             - dropbox
-
             - istat-menus
-
-
             - totalfinder
-
             - virtualbox
             - vagrant
     nodejs:

@@ -3,12 +3,9 @@ recipes:
         - dotfiles::gitconfig
         - applications::sass
         - applications::ssh_config
-#        - applications::macvim          # install xcode before trying to compile macvim
         - dotfiles::vim
         - applications::composer
         - applications::postgresql
-        - applications::mysql
-        - applications::php55
         - dotfiles::workspace
     mac_os_x:
         - applications::svgo
@@ -56,10 +53,7 @@ attributes:
         cask_apps:
             - imageoptim
             - imagealpha
-            - phpstorm
-            - sequel-pro
-            - sourcetree
-            - recordit
+
     nodejs:
         apps:
             - phonegap
