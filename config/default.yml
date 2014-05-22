@@ -2,7 +2,6 @@ recipes:
     global:
         - applications::create_var_chef_cache
     mac_os_x:
-        - homebrewalt::default
         - nodejs::default
         - osxdefaults::add_note_to_loginscreen
         - osxdefaults::disable_auto-correct
