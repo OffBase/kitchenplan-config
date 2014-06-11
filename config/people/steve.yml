@@ -46,7 +46,7 @@ attributes:
         name: Stephen Brandon       
         email: brandon.steve@gmail.com
     osxdefaults:
-        computername: steve-OBP
+        computername: steve-mbz
     authorization:
         sudo:
             users:
