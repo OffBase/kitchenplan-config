@@ -1,7 +1,7 @@
 recipes:
     global:
         - dotfiles::gitconfig
-        - applications::sass
+        - applications::compass
         - applications::ssh_config
         - dotfiles::vim
         - applications::composer
@@ -38,6 +38,9 @@ attributes:
     mysql_root_password: "password"
     homebrewalt:
         apps:
+            - nginx
+            - postgresql
+            - imagemagick
             - git
             - git-extras
             - wget
@@ -50,14 +53,15 @@ attributes:
             - watch
 
         cask_apps:
-            - imageoptim
-            - imagealpha
+            - iterm2
+            - google-chrome
+            - firefox
 
     nodejs:
         apps:
-            - phonegap
-            - cordova
-            - ionic
             - bower
             - grunt
             - grunt-cli
+            - karma
+            - karma-chrome-launcher
+            - karma-jasmine
