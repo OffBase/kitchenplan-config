@@ -28,7 +28,7 @@ attributes:
     dotfiles:
         vimusers:
             - root
-            - dardub
+            - darren
         kdeploy:
             hostname: dev
         vim:
@@ -44,11 +44,11 @@ attributes:
         name: Darren Dub       
         email: dardub@gmail.com
     osxdefaults:
-        computername: dardub
+        computername: darren-work
     authorization:
         sudo:
             users:
-                - dardub
+                - darren
             passwordless: true
             include_sudoers_d: true
     homebrewalt:
