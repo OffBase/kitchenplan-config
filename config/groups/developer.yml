@@ -1,14 +1,10 @@
 recipes:
     global:
         - dotfiles::gitconfig
-        - applications::compass
         - applications::ssh_config
         - dotfiles::vim
-        - applications::composer
         - dotfiles::workspace
     mac_os_x:
-        - applications::svgo
-        - applications::sublime_text_3
         - applications::gnu-tar
         - osxdefaults::set_terminal_profile
         - osxdefaults::add_a_context_menu_item_for_showing_the_web_inspector_in_web_views
@@ -53,6 +49,7 @@ attributes:
             - watch
 
         cask_apps:
+            - sublime-text3
             - iterm2
             - google-chrome
             - firefox
